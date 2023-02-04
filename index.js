@@ -10,7 +10,7 @@ app.use(express.json());
 
 //database
 //mongoose.connect("mongodb://localhost:27017/PortfolioAppDB", { useNewUrlParser: true });
-mongoose.connect("mongodb+srv://ps-admin:Prabhakar10798@cluster0.qiqfd.mongodb.net/PortfolioAppDB", { useNewUrlParser: true });
+mongoose.connect("mongodb+srv://admin-ps:Prabhakar10798@cluster0.qiqfd.mongodb.net/PortfolioAppDB", { useNewUrlParser: true });
 
 const userSchema = new mongoose.Schema({
     name: {
